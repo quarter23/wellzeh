@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>Wellzeh der Zweighalter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/old-standard" type="text/css"/>
+</head>
+<style>
+  body{
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    /*font-family: 'OldStandardRegular';
+    font-weight: normal;
+    font-style: normal;*/
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+  .jumbotron {
+    font-family: Montserrat, sans-serif;
+    /*font-family: 'OldStandardItalic';*/
+    background-color: #7CCD7C; /* Orange */
+    color: #fff;
+    padding: 100px 25px;
+  }
+  .container-fluid{
+    padding: 60px 50px;
+  }
+  .bg-grey{
+    background-color: #f6f6f6;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #7CCD7C;
+}
+
+.carousel-indicators li {
+    border-color: #7CCD7C;
+}
+
+.carousel-indicators li.active {
+    background-color: #7CCD7C;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+.b-color {
+  color: #7CCD7C;
+}
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #7CCD7C;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #7CCD7C !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.img-radius{
+  border-radius: 50%;
+}
+.img-radius-px{
+  border-radius: 8px;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #7CCD7C;
+}
+</style>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#oben">Wellzeh</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#überuns">Über uns</a></li>
+          <li><a href="#dasProdukt">Das Produkt</a></li>
+          <li><a href="#Anleitung">Anleitung</a></li>
+          <li><a href="#aktuelles">Aktuelles</a></li>
+          <li><a href="#preise">Kaufen</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="#AGB">AGB</a></li>
+          <li><a href="#Impressum">Impressum</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--<div id="überuns" class="container-fluid">
+  <div id="dasProdukt" class="container-fluid">
+  <div id="aktuelles" class="container-fluid">
+  <div id="preise" class="container-fluid">
+  <div id="kontakt" class="container-fluid">-->
+  
+  <div id="oben" class="jumbotron text-center">
+  <h1>Willkommen bei Wellzeh!</h1>
+  <p>Der Zweig und Asthalter, das neue System für Dekorationselemente,
+Weihnachtsbäume, Vogelkäfige und Volieren!</p>
+</div>
+<div id="überuns" class="container-fluid text-center bg-grey">
+  <h2>Über uns</h2>
+  <h4>Der Zweighalter<br>für den optisch perfekten Christbaum!<br>
+    Hiermit verkaufen Sie auch Ihren letzten Baum.<br>
+    Oder machen dem Kunden für wenig Geld eine Freude
+    <br>
+    <br>
+  <b class="b-color">F</b>ixieren<br>
+  <b class="b-color">F</b>estziehen<br>
+  <b class="b-color">F</b>ertig!</h4>
+  <img class="img-responsive center-block img-radius" src="./images/welcome01.jpeg" alt="welcome1">
+</div>
+<div id="dasProdukt" class="container-fluid text-center">
+  <h2>Der Zweighalter<h2>
+  <img class="img-responsive center-block img-radius" src="./images/produkt00.jpg">
+  <div class="container-fluid text-center">
+    <h2>Vielseitig einsetzbar!</h2>
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="img-responsive center-block img-radius-px" src="./images/produkt01.jpg" alt="prod01">
+          <h4>Der Wellzeh in Einzelteilen und montiert.<br>
+          Individuell montierbar!</h4>
+        </div>
+        <div class="item">
+          <img class="img-responsive center-block img-radius-px" src="./images/produkt02.jpg" alt="prod02">
+          <h4>Für jede Vorliere, kleine und grosse Vogelkäfige geeignet.
+            Schenken Sie Ihrem Liebling ein Stück Natur</h4>
+        </div>
+        <div class="item">
+          <img class="img-responsive center-block img-radius-px" src="./images/produkt03.jpg" alt="prod03">
+          <h4>Mit einem Holzstab oder Besenstiel und Ihrer Phantasie lassen sich zu jeder Jahreszeit
+            die schönsten Dekorationen erstellen.</h4>
+        </div>
+        <div class="item">
+          <img class="img-responsive center-block img-radius-px" src="./images/produkt04.jpg" alt="prod04">
+          <h4>Der zweite Wahl Christbaum wird zum Prachtexemplar.<br>
+            Weihnachtliche Gestecke für Tisch und Haustür sind schnell gemacht.</h4>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="Anleitung" class="container-fluid text-center bg-grey">
+  <h2>Und so funktioniert's</h2><br>
+  <img class="img-responsive center-block img-radius-px" src="./images/beispiel02.jpg">
+</div>
+<div class="container-fluid text-center">
+  <h2>Bedienungsanleitung für Zweigersatzhalter der Marke „Wellzeh“</h2><br>
+  <br>
+  Geeignet für Christbäume von 1 – 2,30 m Höhe: Schieben Sie je nach Bedarf eine bis maximal vier Hülsen auf das Zugband.<br>
+  <br>
+  Legen Sie das Zugband so um den Stamm, dass die Hülsen schräg nach oben zeigen, und führen sie die Spitze des Zugbandes in das Einrastsystem auf der anderen Seite des Zugbandes. Dabei darf das Zugband noch nicht festgezogen werden.
+  <br>
+  <br>
+  Positionieren Sie die Hülsen in die Zweiglücken und fixieren Sie sodann das Zugband am Stamm durch festes Ziehen am Zugband.
+  <br>
+  <br>
+  Nun schneiden Sie die Zweige (ca. 1 – 1,2 cm Stärke) im unteren Bereich des Baumes im rechten Winkel ab (nicht anspitzen) und pressen Sie diese in die Hülse.
+  <br>
+  <br>
+  Ein Tipp für Christbäume über 2,30 m Höhe mit stärkerem Stamm:<br>
+  Schieben Sie zwei Zugbänder mit jeweils zwei Hülsen ineinander und verfahren Sie in derselben Weise wie vorstehend beschrieben.<br>
+  <br>
+  Hinweis:<br>
+  Polypropylen ist geruchlos und hautverträglich, für Anwendungen im Lebensmittelbereich und der Pharmazie geeignet und physiologisch unbedenklich. Nach Gebrauch entfernen!
+</div>
+<div id="aktuelles" class="container-fluid text-center bg-grey">
+  <h2>Aktuelles</h2>
+  Der Wellzeh bekannt durch RTL, NDR, MDR - einfach genial und die Deutsche Presse Agentur.<br>
+  <a href="http://www.rtlregional.de/player.php?id=8345" title="RTL Regional">http://www.rtlregional.de/player.php?id=8345</a><br>
+<br>
+  Der Wellzeh geht durch die Gazetten: Zahlreiche Zeitungen und Onlineportale berichten über den Wellzeh.<br>
+  Darunter beispielsweise die Welt, die Ruhrnachrichten oder das Portal Web.de. Hier einige Links zur Berichterstattung:<br>
+<br>
+  Ruhr Nachrichten Online:<br>
+  <a href="http://www.ruhrnachrichten.de/leben/haus_und_garten/wissenswertes/Wissenswertes-Tuning-fuer-den-kahlen-Weihnachtsbaum;art398,688789">http://www.ruhrnachrichten.de/leben/haus_und_garten/wissenswertes/Wissenswertes-Tuning-fuer-den-kahlen-Weihnachtsbaum;art398,688789</a>
+<br>
+<br>
+<a href="http://www.wellzeh.com/images/Langeso.pdf">Hof Direkt: Ein Bericht von Katrin Sanderink</a><br>
+<i>Schluss mit lichten Bäumen</i>
+<br>
+<br>
+<a href="http://www.wellzeh.com/presse/31_Taspo_Seite23_TASPO.pdf">Taspo: Ein Bericht von Iris Anger</a><br>
+<i>Er hat überhaupt nicht gebohrt<br> Rechtlich geschützte Erfindung fixiert zusätzliche Zweige an Weihnachtsbäumen...</i>
+<br>
+<br>
+<a href="http://www.wellzeh.com/images/Wellzeh-NOZ-12-09-09.pdf">NOZ: Ein Bericht von Martin Schmitz</a><br>
+<i>Ohne Bohrer und Holzleim<br> Der "Wellzeh" aus Alfhausen könnte so manches Weihnachtsfest retten...</i>
+<br>
+<br>
+Nadel Journal [12 Jahrgang Ausgabe 08/09]:<br>
+DER "WELLZEH" RETTET DIE QUALITÄT!<br>
+FACHZEITSCHRIFT FÜR WEIHNACHSTBAUM- UND SCHNITTGRÜN<br>
+EIN BERICHT VON CHRISTINE BLÖDTNER-PISKE<br>
+<br>
+ALS JÜRGEN WELLMANN AUS ALFHAUSEN ( KREIS OSNABRÜCK ) VERGANGENES JAHR WEIHNACHTEN DAS GESCHÄFT HINTER SICH GEBRACHT HATTE UND DIE ÜBRIG GEBLIEBENEN RESTBESTÄNDE SEINES WEIHNACHTSBAUM - ANGEBOTES BETRACHTETE, KAM IHM DIE IDEE. BEI DER PROGNOSTIZIERTEN BAUMKNAPPHEIT KÖNNTE MAN MIT EINEM ZWEIGERSATZHALTER DIE SCHLECHTEN BÄUME EIN WENIG AUFPEPPEN. DABEI DACHTE ER DURCHAUS DARAN, DAS VIELE LEUTE LÖCHER IN DEN WEIHNACHTSBAUMSTAMM BOHREN, UM ÄSTE UMZUSETZEN. GEDACHT, GETAN. SCHON MACHTE ER SICH AN DIE ENTWICKLUNG. ZUNÄCHST EXPERIMENTIERTE ER MIT BIEGSAMEM KUNSTSTOFF UND DIVERSEN ZUGBÄNDERN, BIS ER SEINE LÖSUNG GEFUNDEN HATTE: DEN GESETZLICH GESCHÜTZTEN "WELLZEH". DIE GRUNDLAGE BILDEN VIER AUFSCHIEBBARE HÜLSEN AUF EINEM 16 MILLIMETER BREITEN KUNSTSTOFFBAND, DER WIE EIN KABELBINDER ARBEITET. DIESER IST HORIZONTAL UND VERTIKAL EINSETZBAR SOWIE DEM STAMM DES BAUMES FARBLICH ANGEPASST. "ER IST FÜR JEDEN ZWEITE- ODER DRITTE- WAHL-BAUM GEEIGNET, UND MAN KANN IHN AM BESTEN IN DEN ERSTEN BEIDEN TERMINALTRIEBABSCHNITTEN VERWENDEN. BEI NORMALEM BETRACHTUNGSABSTAND IST DER KLEINE KUNSTGRIFF NICHT ERKENNBAR", ERKLÄRTE JÜRGEN WELLMANN. DER "WELLZEH" WIRD ERSTMALIG AUF DER MESSE IN LANGESO VORGESTELLT.
+<br>
+<br>
+ZUM LESEN UND AUSDRUCKEN DER DOKUMENTE IM PDF-FORMAT BENÖTIGEN SIE 'ADOBE READER'. DIESES PROGRAMM KÖNNEN SIE UNTER DEM FOLGENDEN LINK ZUM KOSTENLOSEN GEBRAUCH HERUNTERLADEN: HTTP://WWW.ADOBE.DE/PRODUCTS/ACROBAT/READSTEP2.HTML
+</div>
+
+
+<div id="preise" class="container-fluid text-center">
+  <h2>Kaufen</h2>
+  Rufen Sie uns an unter:<br>
+<br>
+  Mobil +49 170 / 580 6329<br>
+<br>
+  Per Fax: +49 54 64 / 967 290
+</div>
+
+<div id="kontakt" class="container-fluid text-center bg-grey">
+  <h2>Kontakt</h2>
+<b>Tannenhof Wellmann</b><br>
+<img class="img-responsive center-block" src="./images/kontakt01.jpg" alt="Kontakt">
+Jürgen Wellmann<br>
+Bersenbrücker Straße 5<br>
+D-49594 Alfhausen<br>
+<br>
+Telefon: + 49 (0)5464 1346<br>
+Telefax: +49 (0)5464 967 290<br>
+Mobil: + 49 (0)170 580 6329<br>
+<br>
+<a href="mailto:info@wellzeh.com">info@wellzeh.com</a>
+</div>
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(52.507974, 7.948262);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDquqFXJtRQqPHHkey28VdBHnGdhBT44lU&callback=myMap"></script>
+
+
+
+<div id="AGB" class="container-fluid text-left">
+<h2>Allgemeine Geschäftsbedingungen</h2>
+Allgemeine Geschäftsbedingungen für Bestellungen von Weihnachtsbaumzweigersatzhalter (Wellzeh) bei dem Erfinder Jürgen Wellmann, Alfhausen
+<br>
+<br>
+§ 1 Geltungsbereich<br>
+<br>
+Die nachstehenden Geschäftsbedingungen gelten für alle Verträge, die ich mit Unternehmern abschließe. Unternehmer ist, wer den Vertrag zu einem Zweck abschließt, der seiner gewerblichen oder selbständigen Tätigkeit zugerechnet werden kann. Sie gelten auch für alle künftigen Geschäfte des Kunden mit mir.
+<br>
+<br>
+§ 2 Vertragsschluss<br>
+<br>
+(1) Das in meinem Internet-Auftritt präsentierte Warenangebot ist freibleibend und kein Angebot im Rechtssinne.<br>
+(2) Mit seiner Bestellung gibt der Kunde ein verbindliches Angebot an mich zum Abschluss eines Kaufvertrages ab. Ein Vertrag kommt erst durch Zusendung einer Auftragsbestätigung oder durch Lieferung der Ware zustande. Der Kunde kann diese Allgemeinen Geschäftsbedingungen jederzeit durch die Betätigung des entsprechenden Feldes auf dem Internetportal www.wellzeh.com ausdrucken.<br>
+(3) Der Kunde versichert, dass alle von ihm bei der Bestellung getätigten Angaben (z.B. Name, Adresse, E-Mail-Adresse, Bankverbindung etc.) wahrheitsgemäß sind. Änderungen sind mir unverzüglich mitzuteilen. <br>
+(4) Die Vertragssprache ist Deutsch.<br>
+<br>
+§ 3 Preise, Versandkosten<br>
+<br>
+(1) Die von mir genannten Preise enthalten nicht die gesetzliche Mehrwertsteuer. Diese ist in jeweiliger gesetzlicher Höhe hinzuzurechnen.<br>
+(2) Der Versand erfolgt auf Kosten des Kunden.<br>
+<br>
+§ 4 Zahlung<br>
+<br>
+(1) Die Zahlung erfolgt grundsätzlich nach Wahl des Kunden per Vorkasse oder per Nachnahme. Übt der Kunde sein Wahlrecht nicht aus, gilt Nachnahme als vereinbart.
+<br>
+(2) Aufrechnungsrechte stehen dem Kunden nur mit von mir unbestrittenen oder rechtskräftig gegen mich festgestellten Forderungen zu. Zur Ausübung eines Zurückbehaltungsrechts ist der Kunde nur insoweit befugt, als sein Gegenanspruch auf dem gleichen Vertragsverhältnis beruht.
+<br>
+<br>
+§ 5 Lieferung<br>
+<br>
+(1) Ich bin in zumutbarem Umfang zu Teillieferungen berechtigt.
+<br>(2) Sollte ein bestellter Artikel nicht lieferbar sein, weil ich von meinem Lieferanten ohne mein Verschulden trotz dessen vertraglicher Verpflichtung nicht beliefert werde, bin ich zum Rücktritt vom Vertrag berechtigt. In diesem Fall werde ich den Kunden unverzüglich darüber informieren, dass die bestellte Ware nicht verfügbar ist, und etwaige schon erbrachte Zahlungen unverzüglich erstatten.
+<br>(3) Angegebene Lieferfristen stellen nur einen Richtwert dar und gelten daher als nur annähernd vereinbart (ca-Fristen).
+<br>(4) Gerät der Kunde mit der Annahme in Verzug oder ist ein Zustellungshindernis von ihm zu vertreten, so bin ich unbeschadet weitergehender Ansprüche berechtigt, für die Mehrarbeit und Einlagerung eine Kostenpauschale von 20,00 EUR zu verlangen. Dem Kunden bleibt der Nachweis vorbehalten, dass kein oder ein niedrigerer Schaden entstanden ist.
+<br>
+<br>
+§ 6 Eigentumsvorbehalt
+<br>
+<br>
+(1) Die gelieferte Ware bleibt bis zu ihrer vollständigen Bezahlung mein Eigentum.
+<br>(2) Zugriffe Dritter auf die Vorbehaltsware hat mir der Kunde unverzüglich nach Bestellung mitzuteilen. Der Kunde haftet für alle Kosten, die für die Aufhebung solcher Zugriffe anfallen, insbesondere durch Erhebung einer Drittwiderspruchsklage, soweit die Erstattung der Kosten nicht von dem betreffenden Dritten zu erlangen ist.
+<br>
+<br>
+§ 7 Mängelrechte
+<br>
+<br>
+(1) Dem Kunden trifft im Hinblick auf Sachmängel zunächst die gesetzliche Untersuchungs- und Rügeobliegenheit.
+<br>(2) Bei einem Sachmangel der Kaufsache gelten grundsätzlich die gesetzlichen Vorschriften. Der Kunde kann in erster Linie Nacherfüllung, d.h. nach meiner Wahl Nachlieferung oder Mangelbeseitigung, verlangen kann. Bei Vorliegen der weiteren gesetzlichen Voraussetzungen ist der Kunde berechtigt, den Kaufpreis zu mindern oder von dem Vertrag zurückzutreten. Für Schadensersatzansprüche wegen eines Mangels müssen - ergänzend zu den gesetzlichen Voraussetzungen – die in § 8 genannten weiteren Voraussetzungen vorliegen.
+<br>(3) Sämtliche Mängelansprüche verjähren in zwei Jahren ab Übergabe.
+<br>
+<br>§ 8 Schadensersatzhaftung
+<br>
+<br>Für eine Haftung von mir auf Schadensersatz gelten unbeschadet der sonstigen gesetzlichen Anspruchsvoraussetzungen die folgenden Haftungsausschlüsse und –begrenzungen.
+<br>
+<br>(1) Ich hafte, sofern mir Vorsatz oder grobe Fahrlässigkeit zur Last fällt. Für einfache Fahrlässigkeit hafte ich nur bei Verletzung einer Pflicht, deren Erfüllung die ordnungsgemäße Durchführung des Vertrages überhaupt erst ermöglicht und auf deren Einhaltung der Vertragspartner regelmäßig vertrauen darf (sogenannte Kardinalpflicht). Im übrige ist eine Schadensersatzhaftung für Schäden aller Art, gleich aufgrund welcher Anspruchsgrundlage, einschließlich der Haftung für Verschulden bei Vertragsschluss ausgeschlossen.
+<br>(2) Sofern ich gemäß Absatz 1 für einfache Fahrlässigkeit hafte, ist meine Haftung auf den Schaden begrenzt, mit dessen Entstehen ich nach den bei Vertragsschluss bekannten Umständen typischerweise rechnen musste.
+<br>(3) Vorstehende Haftungsausschlüsse und –beschränkungen gelten weder, wenn ich eine Garantie für die Beschaffenheit der Ware übernommen habe, noch für Schäden, die nach dem Produkthaftungsgesetz zu ersetzen sind, noch für Schäden an Leben, Körper oder Gesundheit noch für gesetzliche Ansprüche.
+<br>(4) Vorstehende Haftungsausschlüsse und –begrenzungen gelten auch zugunsten meiner Mitarbeiter, Erfüllungsgehilfen und sonstiger Dritter, deren ich mich zur Vertragserfüllung bediene.
+<br>
+<br>§ 9 Datenschutz
+<br>
+<br>(1) Ich erhebe und speichere die für die Geschäftsabwicklung notwendigen Daten des Kunden. Bei der Verarbeitung der personenbezogenen Daten des Kunden beachte ich die gesetzlichen Bestimmungen. Nähere Einzelheiten ergeben sich aus der in meinem Internetportal abrufbaren Datenschutzerklärung.
+<br>(2) Der Kunde erhält auf Anforderung jederzeit Auskunft für die zu seiner Person gespeicherten Daten.
+<br>
+<br>
+§ 10 Anwendbares Rechts, Gerichtsstand
+<br>
+<br>(1) Für diese Geschäftsbedingungen und die gesamten Rechtsbeziehungen zwischen mir und meinen Vertragspartnern gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufpreis (CSIG).
+<br>(2) Erfüllungsort ist mein Geschäftssitz. Nach diesem Geschäftssitz wird der Gerichtsstand für alle eventuellen Streitigkeiten ermittelt.
+<br>
+<br>
+§ 11 Schlussbestimmungen
+<br>
+<br>(1) Dieser Text enthält alle zwischen den Parteien über den Vertragsgegenstand getroffenen Vereinbarungen mit Ausnahme von Art und Menge der Waren und deren Preis, die im Einzelfall gesondert vereinbart werden. Mündliche Nebenabreden bestehen nicht. Entgegenstehende Allgemeine Geschäftsbedingungen des Kunden finden keine Anwendung.
+<br>(2) Sollten einzelne Bestimmungen dieses Vertrages unwirksam oder undurchführbar sein, soll die Wirksamkeit der übrigen Bestimmungen dadurch nicht berührt werden. Die unwirksamen oder undurchführbaren Bestimmungen werden ersetzt durch Bestimmungen, die der unwirksamen oder undurchführbaren Bestimmung wirtschaftlich am nächsten kommt.
+</div>
+
+<div id="Impressum" class="container-fluid text-left">
+<h2>Impressum</h2>
+Jürgen Wellmann<br>
+Bersenbrücker Straße 5<br>
+D-49594 Alfhausen<br>
+Fon: 05464 - 1346<br>
+Fax: 05464 - 967 290<br>
+Mobil: 0170 - 580 63 29<br>
+Internet: www.wellzeh.com<br>
+<br>
+Steuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>
+DE 813 597 632<br>
+
+Rechtliche Hinweise zur Benutzung der Internetseiten:<br>
+Alle Informationen auf dieser Webseite dienen nur der allgemeinen Information. Sie stellen keine Rechtsberatung dar. Ich habe die Informationen sorgfältig geprüft und bemühe mich um Aktualität. Gleichwohl kann ich keine Verantwortung für Schäden übernehmen, die durch den Gebrauch dieser Seite oder durch das Vertrauen auf der darin gemachten Angaben entstehen. Soweit ich mit Links auf Informationen Dritter verweise, vermittle ich lediglich den Zugang zu den entsprechenden Seiten. Ich mache mir den Inhalt dadurch nicht zu eigen. Die Datenübertragung im Internet ist derzeit noch nicht hinreichend sicher gegen unbefugte Eingriffe. Bitte senden Sie aus diesem Grunde auf diesem Wege keine vertraulichen Informationen.<br>
+<br>
+Haftungsausschluss:<br>
+1. Inhalt dieser Homepage und der User Homepages:<br>
+Haftungsansprüche gegen mich sind grundsätzlich ausgeschlossen, die sich auf Schäden materieller oder ideeller Art beziehen, welche durch die Nutzung fehlerhafter und unvollständiger Informationen bzw. durch die Form der  Nutzung verursacht wurden, vorausgesetzt es liegt kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden meinerseits vor. Ich behalte mir ohne gesonderte Ankündigung vor, den gesamten Internetauftritt oder Teile davon zu verändern, zu löschen oder zeitweise bzw. endgültig einzustellen.
+<br>
+2. Verweise und Links<br>
+Ich kann für externe Webseiten Dritter keine Gewähr übernehmen. Für die Inhalte der verlinkten Seite ist stets der jeweilige Anbieter oder Betreiber der Seite verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Eine permanente inhaltliche Kontrolle der verlinkten Seite ist ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werde ich derartige Links umgehend entfernen.
+<br>
+3. Urheberrecht<br>
+Wird auf dieser Internetpräsenz ein Urheberrecht verletzt, bitte ich um Aufklärung, um diese Verletzung zu bereinigen.
+<br>
+Ich bin bemüht, in allen veröffentlichen Seiten die Urheberrechte der benutzen Grafiken, Sounds und Texte zu beachten. Für von mir selbst erstellte Inhalte bleibt das Urheberrecht allein bei mir. Für die Verwendung oder Vervielfältigung solcher Inhalte (Grafiken, Sounds, Texte) in anderen Publikationen ist meine ausdrückliche Zustimmung erforderlich.
+<br>
+4. Rechtswirksamkeit dieses Haftungsausschlusses<br>
+Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen des Textes der Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt.
+<br>
+5. Keine Abnahme ohne vorherigen Kontakt<br>
+Sollte der Inhalt oder die Aufmachung dieser Seiten fremde Rechte Dritter oder gesetzliche Bestimmungen verletzen, so bitte ich um eine entsprechende Nachricht ohne Kostennote.
+<br>
+Ich garantiere, dass die zu Recht beanstandeten Passagen unverzüglich entfernt werden, ohne dass von anderer Seite die Einschaltung eines Rechtsdienstleisters erforderlich ist. Dennoch ohne vorherige Kontaktaufnahme ausgelöste Kosten werden vollumfänglich zurückgewiesen und ggf. Gegenklage wegen Verletzung vorgenannter Bestimmungen eingereicht.
+<br>
+6. Datenschutzerklärung<br>
+Meine Aufgabe ist es, die Privatsphäre der Kunden zu schützen. Ich verwende die von mir gesammelten Informationen über die Kunden unter Beachtung der geltenden Datenschutzgesetze.
+<br>
+7. Was sind personenbezogene Daten?<br>
+Ich verstehe unter personenbezogene Daten Informationen zu der Identität der Kunden, wie beispielsweise ihren Namen, E-Mail-Adresse oder Postanschrift.
+<br>
+8. Weitergabe an Dritte<br>
+Alle Daten, die mir übermittelt werden, werden selbstverständlich vertraulich behandelt. Ich stelle die Kundendaten grundsätzlich nicht anderen zur Nutzung zur Verfügung, sei es denn, sie haben hierzu das Einverständnis gegeben oder ich bin zur Preisgabe dieser Daten verpflichtet, beispielsweise aufgrund einer gerichtlichen Verfügung.
+<br>
+9. Was tue ich mit Ihren Daten?<br>
+Ich sammele, speichere und verarbeite Informationen, um meine Kunden besser zu verstehen und ihnen bessere Dienste anbieten zu können. Dazu nehme ich interne Untersuchungen hinsichtlich der Demographie, Nutzerinteressen und deren Verhalten vor. Sofern der jeweilige Kunde hierzu durch Abgabe einer Einverständniserklärung eingewilligt hat, sammele, speichere und verarbeite ich auch persönliche Informationen für Zwecke der individuellen Information und Betreuung. Hierzu gehören personalisierte Dienste, insbesondere die Bereitstellung gezielter, benutzerindividueller Inhalte u.a. auch Foren. Hierzu kann ich den Nutzer meiner Websites maßgeschneiderte Inhalte und Services zur Verfügung stellen und den persönlichen Nutzwert innerhalb meiner Online-Angebote erhöhen.
+<br>
+10. Ihr Recht auf jederzeitigen Widerruf<br>
+Der Kunde hat jederzeit das Recht, eine erteilte Einwilligung zur Nutzung seiner personenbezogenen Daten zu widerrufen. Alle bei mir abgegebenen Daten kann der Kunde jederzeit löschen lassen, wenn er mich darüber informiert.
+<br>
+11. Sicherheit der Daten<br>
+Ich bin um die Sicherheit aller Daten im Rahmen der geltenden Datenschutzgesetze bemüht, dennoch ist keine elektronische Kommunikation vollkommen sicher. Ich möchte darauf hinweisen, dass trotz meiner hohen Anforderungen Informationen von anderen genutzt werden können. Deshalb kann ich für die Offenlegung von Informationen aufgrund von Fehlern bei der Datenübertragung und/oder unautorisiertem Zugriff durch Dritte keine Verantwortung oder Haftung übernehmen.
+<br>
+12. Änderungen dieser Datenschutzerklärung<br>
+Ich behalte mir das Recht vor, diese Datenschutzerklärung jederzeit unter Beachtung der geltenden Datenschutzbestimmungen zu ändern.
+<br>
+Der Gesetzgeber hat mich verpflichtet, meine Kunden als Nutzer meiner Dienstleistungen vor der Verarbeitung und Nutzung der personenbezogenen Daten zu unterrichten.
+<br>
+Sämtliche Anforderungen des Bundesdatenschutzgesetzes werden von mir eingehalten.
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="#oben" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p> <a href="https://www.wellzeh.com" title="Wellzeh der Zweighalter!">www.wellzeh.com</a></p><br>
+  Copyright © 2017 Jürgen Wellmann.<br>
+  All Rights Reserved.
+</footer>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#oben']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+</body>
+</html>
